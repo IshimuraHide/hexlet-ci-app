@@ -17,4 +17,8 @@ jobs:
       - run: make setup
       - run: make test
       - run: make lint
+      # ниже представлен пользовательский экшн hello world
+
+      - name: Print Hello from Hexlet
+        uses: hexlet-components/hello-from-hexlet-action@release
 
